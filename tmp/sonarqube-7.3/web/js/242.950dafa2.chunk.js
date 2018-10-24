@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[242],{21:function(n,e,o){"use strict";o.r(e);var t=o(643);e.default=function(){var n=Object(t.a)(),e=window.location.pathname+window.location.search+window.location.hash;n.replace({pathname:"/sessions/new",query:{return_to:e}})}},643:function(n,e,o){"use strict";var t,a=o(541),i=o(1063);e.a=function(){return t||(t=Object(a.useRouterHistory)(i.createHistory)({basename:window.baseUrl+"/"}))}}}]);
+//# sourceMappingURL=242.950dafa2.chunk.js.map

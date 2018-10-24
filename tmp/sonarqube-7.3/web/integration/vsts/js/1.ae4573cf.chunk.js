@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{513:function(n,a,e){"use strict";e.r(a);var o,t=e(501),i=e(503),w=function(){return o||(o=Object(t.a)(i.createHistory)({basename:window.baseUrl+"/"}))};a.default=function(){var n=w(),a=window.location.pathname+window.location.search+window.location.hash;n.replace({pathname:"/sessions/new",query:{return_to:a}})}}}]);
+//# sourceMappingURL=1.ae4573cf.chunk.js.map
