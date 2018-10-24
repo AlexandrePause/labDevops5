@@ -1,0 +1,111 @@
+2018.10.24 11:51:19 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2018.10.24 11:51:19 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2018.10.24 11:51:19 INFO  ce[][o.s.c.e.CoreExtensionsLoader] Loaded core extensions: 
+2018.10.24 11:51:19 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2018.10.24 11:51:19 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2018.10.24 11:51:19 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2018.10.24 11:51:19 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2018.10.24 11:51:21 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2018.10.24 11:51:21 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2018.10.24 11:51:22 WARN  ce[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only.
+2018.10.24 11:51:23 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\pause\eclipse-workspace\myProject\tmp\sonarqube-7.3
+2018.10.24 11:51:23 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2018.10.24 11:51:24 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@1b43a433. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2018.10.24 11:51:24 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@5f3db9b. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2018.10.24 11:51:24 WARN  ce[][o.s.c.p.ComponentKeys] Bad component key: org.sonar.java.externalreport.ExternalRulesDefinition@31059fb9. Please implement toString() method on class org.sonar.java.externalreport.ExternalRulesDefinition
+2018.10.24 11:51:24 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2018.10.24 11:51:24 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Compute Engine tasks created before 1524822684891
+2018.10.24 11:51:24 INFO  ce[][o.s.c.q.PurgeCeActivities] Delete the Scanner contexts tasks created before 1537955484913
+2018.10.24 11:51:24 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2018.10.24 11:51:41 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.CeWorkerImpl] Execute task | project=com.organisation.name:myProject | type=REPORT | id=AWalfJzYci9TcygYmVl8
+2018.10.24 11:51:41 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Extract report | time=50ms
+2018.10.24 11:51:41 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist scanner context | time=13ms
+2018.10.24 11:51:41 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Execute DB migrations for current project | time=24ms
+2018.10.24 11:51:41 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Generate analysis UUID | time=0ms
+2018.10.24 11:51:42 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load analysis metadata | time=205ms
+2018.10.24 11:51:42 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Initialize | time=0ms
+2018.10.24 11:51:42 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Verify billing | time=0ms
+2018.10.24 11:51:42 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Build tree of components | components=8 | time=63ms
+2018.10.24 11:51:42 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Validate project | time=11ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load quality profiles | time=861ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load Quality gate | time=32ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load differential periods | time=12ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Detect file moves | time=0ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load duplications | duplications=0 | time=6ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute cross project duplications | time=0ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute size measures | time=30ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute new coverage | time=29ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute coverage measures | time=3ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute comment measures | time=2ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Copy custom measures | time=6ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute duplication measures | time=1ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute duplication data measures | time=1ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute size measures on new code | time=2ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute language distribution | time=27ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute test measures | time=2ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute complexity measures | time=29ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Load measure computers | time=4ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Execute component visitors | time=266ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Checks executed after computation of measures | time=0ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute measure variations | time=22ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute Quality Gate measures | time=75ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Compute Quality profile measures | time=18ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Generate Quality profile events | time=10ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Generate Quality gate events | time=5ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist components | time=116ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist analysis | time=5ms
+2018.10.24 11:51:43 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist analysis properties | time=2ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist measures | inserts=60 | time=51ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist live measures | insertsOrUpdates=269 | deletes=0 | time=291ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist new externally defined Rules | time=4ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist issues | inserts=7 | updates=0 | untouched=0 | time=59ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist project links | time=9ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist events | time=11ms
+2018.10.24 11:51:44 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist sources | time=551ms
+2018.10.24 11:51:45 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist tests | time=47ms
+2018.10.24 11:51:45 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Persist cross project duplications | time=0ms
+2018.10.24 11:51:45 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Enable analysis | time=7ms
+2018.10.24 11:51:45 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Update last usage date of quality profiles | time=25ms
+2018.10.24 11:51:45 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Purge db | time=140ms
+2018.10.24 11:51:46 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Index analysis | time=832ms
+2018.10.24 11:51:46 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Send issue notifications | newIssuesNotifs=0 | newIssuesDeliveries=0 | myNewIssuesNotifs=0 | myNewIssuesDeliveries=0 | changesNotifs=0 | changesDeliveries=0 | time=5ms
+2018.10.24 11:51:46 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Publish task results | time=2ms
+2018.10.24 11:51:46 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.s.ComputationStepExecutor] Trigger refresh of Portfolios and Applications | time=0ms
+2018.10.24 11:51:46 ERROR ce[AWalfJzYci9TcygYmVl8][o.s.a.u.i.DefaultTempFolder] Failed to delete temp folder
+java.nio.file.FileSystemException: C:\Users\pause\eclipse-workspace\myProject\tmp\sonarqube-7.3\temp\ce\9122039680287725692\8114431300540065373\source-3.txt: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.sonar.api.utils.internal.DefaultTempFolder$DeleteRecursivelyFileVisitor.visitFile(DefaultTempFolder.java:115)
+	at org.sonar.api.utils.internal.DefaultTempFolder$DeleteRecursivelyFileVisitor.visitFile(DefaultTempFolder.java:110)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at org.sonar.api.utils.internal.DefaultTempFolder.clean(DefaultTempFolder.java:97)
+	at org.sonar.api.utils.internal.DefaultTempFolder.stop(DefaultTempFolder.java:106)
+	at org.sonar.ce.task.projectanalysis.filesystem.ComputationTempFolderProvider.stop(ComputationTempFolderProvider.java:65)
+	at org.picocontainer.DefaultPicoContainer.stopAdapters(DefaultPicoContainer.java:1048)
+	at org.picocontainer.DefaultPicoContainer.stop(DefaultPicoContainer.java:803)
+	at org.sonar.core.platform.ComponentContainer.stopComponents(ComponentContainer.java:165)
+	at org.sonar.ce.task.container.TaskContainerImpl.close(TaskContainerImpl.java:88)
+	at org.sonar.ce.task.projectanalysis.taskprocessor.ReportTaskProcessor.process(ReportTaskProcessor.java:83)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.executeTask(CeWorkerImpl.java:136)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.findAndProcessTask(CeWorkerImpl.java:99)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.withCustomizedThreadName(CeWorkerImpl.java:83)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:75)
+	at org.sonar.ce.taskprocessor.CeWorkerImpl.call(CeWorkerImpl.java:45)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018.10.24 11:51:46 INFO  ce[AWalfJzYci9TcygYmVl8][o.s.c.t.CeWorkerImpl] Executed task | project=com.organisation.name:myProject | type=REPORT | id=AWalfJzYci9TcygYmVl8 | status=SUCCESS | time=5054ms
+2018.10.24 11:55:26 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2018.10.24 11:55:26 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Waiting for workers to finish in-progress tasks
+2018.10.24 11:55:28 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
